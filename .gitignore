@@ -3,14 +3,6 @@
 .env.local
 .env.*.local
 
-# Database
-*.db
-*.sqlite
-*.sqlite3
-
-# Large data (exceeds GitHub 100MB limit)
-vcus.csv
-
 # Python
 __pycache__/
 *.py[cod]
