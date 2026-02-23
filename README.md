@@ -57,6 +57,8 @@ pip install -r requirements.txt
 
 ### 3. Initialize Database
 
+> **Note:** `vcus.csv` is not included in the repo (exceeds GitHub's 100MB limit). Place your Verra VCU export CSV as `vcus.csv` in the project root before running init.
+
 ```bash
 # This loads vcus.csv and creates computed metrics tables
 python init_db.py
